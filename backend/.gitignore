@@ -1,0 +1,53 @@
+node_modules
+logs
+.env
+package-lock.json
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+logs/
+*.log
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+*.env
+
+# Dependency files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Cache and compiled files
+*.egg-info/
+dist/
+build/
+*.pkl
+
+# FAISS Index files
+*.faiss
+
+# Ignore data files
+data_ingestion/vector_store.pkl
+
+# Ignore Docker and deployment files (if applicable)
+docker-compose.override.yml
