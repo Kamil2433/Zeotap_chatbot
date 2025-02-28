@@ -13,3 +13,55 @@ Question: How can I create a user profile in mParticle?
 
 Response - On the Information tab for the profile, scroll to the User Attributes section and click theEditpencil icon next to the mParticle workspace where you want to make your changes https://docs.mparticle.com/guides/platform-guide/activity/#user-activity: For details, refer to the documentation for your integrations or contact your mParticle account representative.Edit a profileâs user attributesTo edit a profileâs user attributes:Navigate toActivity > User Activityusing the left-hand nav bar.Find the profile you want to edit by searching for one of the profileâs identifiers under User Search.On the Information tab for the profile, scroll to the User Attributes section and click theEditpencil icon next to the mParticle workspace where you want to make your changes.Remember that user attributes are scoped at the workspace level, so a profile that exists in multiple workspaces may contain different attributes in each workspace.In the Edit modal, select one of your configured and active inputs
 
+
+
+This is a Retrieval-Augmented Generation (RAG) chatbot designed to assist users with CDP (Customer Data Platform) support queries. The chatbot scrapes documentation, stores the data in a vector database, and retrieves relevant answers using NLP-based approaches.
+
+Features
+
+Chatbot UI
+
+Web Scraper to extract data from CDP documentation
+
+Vector Database for efficient retrieval
+
+NLP-based Answering System
+
+Tech Stack
+
+Backend:
+
+Python (Flask/FastAPI)
+
+LangChain for retrieval
+
+FAISS
+
+ BeautifulSoup (Web Scraper)
+
+ HuggingFace Transformers (NLP)
+
+Frontend:
+
+React.js
+
+Tailwind CSS / Material UI
+
+Axios (for API calls
+
+Backend Setup- 
+cd backend  # Navigate to backend folder
+ python -m venv venv  # Create a virtual environment
+ source venv/bin/activate  # Activate (Linux/macOS)
+ venv\Scripts\activate  # Activate (Windows)
+ pip install -r requirements.txt  # Install dependencies
+
+ Backend start- 
+ python app.py  # For Flask
+ uvicorn main:app --reload  # For FastAPI
+
+Frontend Setup-  cd frontend  # Navigate to frontend folder
+ npm install  # Install dependencies
+ npm start  # Run React frontend
+
+ 
