@@ -1,11 +1,11 @@
 # Zeotap_chatbot
 Chatbot with scraper
 
-# Screenshot of UI
+**Screenshot of UI**
 
 <img width="945" alt="Screenshot 2025-02-28 200810" src="https://github.com/user-attachments/assets/4e05fe77-a8c8-4d53-af65-5964f41ab3e0" />
 
-Example of response - 
+**Example of response -**
 
 Question: What APIs does mparticle?
 
@@ -19,7 +19,7 @@ Response - On the Information tab for the profile, scroll to the User Attributes
 
 This is a Retrieval-Augmented Generation (RAG) chatbot designed to assist users with CDP (Customer Data Platform) support queries. The chatbot scrapes documentation, stores the data in a vector database, and retrieves relevant answers using NLP-based approaches.
 
-# Features
+**Features**
 
 Chatbot UI
 
@@ -29,7 +29,7 @@ Vector Database for efficient retrieval
 
 NLP-based Answering System
 
-# Tech Stack
+**Tech Stack**
 
 **Backend:**
  1. Python (Flask/FastAPI)
@@ -44,23 +44,23 @@ NLP-based Answering System
  2. Tailwind CSS / Material UI
  3. Axios (for API calls
 
-# Backend Setup
+**Backend Setup**
 cd backend  # Navigate to backend folder
 python -m venv venv  # Create a virtual environment
 
-# Activate virtual environment
-# For Linux/macOS
+**Activate virtual environment**
+For Linux/macOS
 source venv/bin/activate  
-# For Windows
+**For Windows**
 venv\Scripts\activate  
 
 pip install -r requirements.txt  # Install dependencies
 
-# Backend Start
+**Backend Start**
 python app.py  # For Flask
 uvicorn main:app --reload  # For FastAPI
 
-# Frontend Setup
+**Frontend Setup**
 cd frontend  # Navigate to frontend folder
 npm install  # Install dependencies
 npm start  # Run React frontend
