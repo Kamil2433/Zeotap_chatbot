@@ -1,6 +1,8 @@
 # Zeotap_chatbot
 Chatbot with scraper
 
+# Screenshot of UI
+
 <img width="945" alt="Screenshot 2025-02-28 200810" src="https://github.com/user-attachments/assets/4e05fe77-a8c8-4d53-af65-5964f41ab3e0" />
 
 Example of response - 
@@ -17,7 +19,7 @@ Response - On the Information tab for the profile, scroll to the User Attributes
 
 This is a Retrieval-Augmented Generation (RAG) chatbot designed to assist users with CDP (Customer Data Platform) support queries. The chatbot scrapes documentation, stores the data in a vector database, and retrieves relevant answers using NLP-based approaches.
 
-Features
+# Features
 
 Chatbot UI
 
@@ -27,16 +29,16 @@ Vector Database for efficient retrieval
 
 NLP-based Answering System
 
-Tech Stack
+# Tech Stack
 
-Backend:
+**Backend:**
  1. Python (Flask/FastAPI)
  2. LangChain for retrieval
  3. FAISS( vector DB)
  4. BeautifulSoup (Web Scraper)
  5. HuggingFace Transformers (NLP)
 
-Frontend:
+**Frontend:**
 
  1. React.js
  2. Tailwind CSS / Material UI
