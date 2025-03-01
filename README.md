@@ -30,24 +30,17 @@ NLP-based Answering System
 Tech Stack
 
 Backend:
-
-Python (Flask/FastAPI)
-
-LangChain for retrieval
-
-FAISS
-
- BeautifulSoup (Web Scraper)
-
- HuggingFace Transformers (NLP)
+ 1. Python (Flask/FastAPI)
+ 2. LangChain for retrieval
+ 3. FAISS( vector DB)
+ 4. BeautifulSoup (Web Scraper)
+ 5. HuggingFace Transformers (NLP)
 
 Frontend:
 
-React.js
-
-Tailwind CSS / Material UI
-
-Axios (for API calls
+ 1. React.js
+ 2. Tailwind CSS / Material UI
+ 3. Axios (for API calls
 
 Backend Setup- 
 cd backend  # Navigate to backend folder
