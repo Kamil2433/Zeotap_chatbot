@@ -42,19 +42,26 @@ Frontend:
  2. Tailwind CSS / Material UI
  3. Axios (for API calls
 
-Backend Setup- 
+# Backend Setup
 cd backend  # Navigate to backend folder
- python -m venv venv  # Create a virtual environment
- source venv/bin/activate  # Activate (Linux/macOS)
- venv\Scripts\activate  # Activate (Windows)
- pip install -r requirements.txt  # Install dependencies
+python -m venv venv  # Create a virtual environment
 
- Backend start- 
- python app.py  # For Flask
- uvicorn main:app --reload  # For FastAPI
+# Activate virtual environment
+# For Linux/macOS
+source venv/bin/activate  
+# For Windows
+venv\Scripts\activate  
 
-Frontend Setup-  cd frontend  # Navigate to frontend folder
- npm install  # Install dependencies
- npm start  # Run React frontend
+pip install -r requirements.txt  # Install dependencies
+
+# Backend Start
+python app.py  # For Flask
+uvicorn main:app --reload  # For FastAPI
+
+# Frontend Setup
+cd frontend  # Navigate to frontend folder
+npm install  # Install dependencies
+npm start  # Run React frontend
+
 
  
